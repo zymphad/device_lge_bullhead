@@ -398,7 +398,7 @@ PRODUCT_PACKAGES += \
 
 # old-apns.conf
 PRODUCT_COPY_FILES += \
-    device/huawei/angler/old-apns-conf.xml:system/etc/old-apns-conf.xml
+    device/lge/bullhead/old-apns-conf.xml:system/etc/old-apns-conf.xml
 
 # Modem debugger
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
